@@ -762,12 +762,23 @@ p span {
     height: auto; /* Mengizinkan tinggi header menyesuaikan */
   }
 
+  .header-text {
+    /* display: none; */
+  }
   .header-text h1 {
     font-size: 1.5em;
   }
 
+  .logo {
+    margin: 0 auto;
+  }
+
   .logo img {
     height: 50px;
+  }
+
+  .nav-menu ul {
+    text-align: right;
   }
 
   .slider {
@@ -858,5 +869,9 @@ p span {
 
   .small-slider {
     width: 90%;
+  }
+
+  .carousel-item img {
+    max-width: 300px;
   }
 }
